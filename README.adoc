@@ -1,6 +1,6 @@
 = Hello World
 
-= AsciiDoc converted to HTML/PDF files and published on gh-pages with Asciidoctor Docker from Travis CI
+== AsciiDoc converted to HTML/PDF files and published on gh-pages with Asciidoctor Docker from Travis CI
 
 :link-github-project-ghpages: https://mgreau.github.io/asciidoc-to-ghpages
 :link-demo-html: {link-github-project-ghpages}/demo.html
