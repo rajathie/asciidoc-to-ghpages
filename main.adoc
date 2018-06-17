@@ -1,11 +1,7 @@
-Hello Raja - Asciidoctor Demo
+The Ethereum-VM (virtual machine) and its “turing completeness”
 ================
-////
-Big ol' comment
+Raja Thiedmann
 
-sittin' right 'tween this here title 'n header metadata
-////
-Dan Allen <thedoc@asciidoctor.org>
 :description: A demo of Asciidoctor. This document +
               exercises numerous features of AsciiDoc +
               to test Asciidoctor compliance.
