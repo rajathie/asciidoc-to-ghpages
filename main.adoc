@@ -6,11 +6,11 @@ _Note – this is a generic template and may need to be adjusted for your partic
 
 * Why the topic is interesting, important or worthy of study
 
->> abc
+>> 
 
 * Some background information to put your topic in *context*
 
->> jfeAFNAFN
+>> 
 
 * Indication of how your topic has been *focused* on something that is manageable within 4000 words
 
