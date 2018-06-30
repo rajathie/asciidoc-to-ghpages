@@ -1,3 +1,5 @@
 # Output directory for HTML files
 **/.gradle
 output/
+build/
+**/.DS_Store

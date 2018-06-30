@@ -1,0 +1,58 @@
+buildscript {
+    repositories {
+        maven {
+            name 'Bintray Asciidoctor repo'
+            url 'http://dl.bintray.com/content/aalmiray/asciidoctor'
+        }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath("org.asciidoctor:asciidoctor-gradle-plugin:1.5.6")
+    }
+}
+
+
+ext {
+    srcDir = "$projectDir"
+    targetDir = "$buildDir/out"
+    currentDate = new Date().format("MMM d. yyyy")
+}
+
+version = '0.0.1-SNAPSHOT'
+
+// =========== asciidoctor ===============
+apply plugin: 'org.asciidoctor.convert'
+
+asciidoctor {
+    outputDir = file(targetDir)
+    sourceDir = file(srcDir)
+    sources { include "main.adoc" }
+    attributes = [
+            separateOutputDirs  : false,
+            imagesdir           : 'images',
+            doctype             : 'book',
+            icons               : 'font',
+            toc                 : 'left',
+            sectlink            : true,
+            sectanchors         : true,
+            numbered            : true,
+            'source-highlighter': 'coderay',
+            'coderay-css'       : 'class',
+            stylesheet          : 'style.css',
+            stylesdir           : "$srcDir/css/",
+            version             : project.version,
+            'currentDate'       : "$currentDate"
+    ]
+
+    resources {
+        from("${srcDir}/") {
+            include 'images/**'
+        }
+    }
+}
