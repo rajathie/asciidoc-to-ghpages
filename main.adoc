@@ -6,23 +6,24 @@ _Note – this is a generic template and may need to be adjusted for your partic
 
 * Why the topic is interesting, important or worthy of study
 
->> 
+>> The Blockchain industry has become very important and popular over the last few years. 
 
 * Some background information to put your topic in *context*
 
->> 
+>> I will be focusing on Ethereum in particular, as I am trying to investigate the possible pontential of it for the future. Ethereum is known to have high security and is active in the finance area. Therefore I am trying to show that Ethereum can be a big problem solver in terms of security in  due to its high security advantage have 
 
 * Indication of how your topic has been *focused* on something that is manageable within 4000 words
 
->>
+>> It will be focused on Ethereum, how it works and how it can help to bring the industry further. 
 
 * A clear and precise *research question* (it may change slightly throughout the draft stage):
 
->>
+>> What are the possibilities and limits of “turing complete” machines transferred to the world of distributed ledger systems such as Ethereum?
+
 
 * A clear concluding statement on the *line of argument* (response to the research question
 
->>
+>> Ethereum can bring a lot to the finance market in terms of security and tax transimissions. It will be a safer, quicker and more  modern way of doing international transaction. 
 
 *BODY: 3000 words*
 
